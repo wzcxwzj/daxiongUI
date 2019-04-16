@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<!-- <link rel=“stylesheet” type="text/css” href="new2.css”> -->
+	<style>
+		#A{
+			width:400px;
+			height:400px;
+			background-color:#A6936E;
+			position:absolute;
+			border-radius:10px;
+		}
+		#B{
+			width:400px;
+			height:400px;
+			background-color:#A6936E;	
+			left:450px;
+			position:absolute;
+			border-radius:10px;
+		}
+		.in {
+			width:220px;
+			background-color:white;	
+			
+		}
+	</style>
+</head>
+<body>
+	<div id=A>
+		<label>主要信号通道频点1设置</label>
+			<form>
+				<label>数据来源</br>
+				<input type="radio"/>固定帧
+				<input type="radio"/>累加帧
+				<input type="radio"/>AIS协议帧
+			</form>
+			
+			<form >
+				<label>输出控制</br>
+				<input type="checkbox"/>161.975MHz
+				<input type="checkbox"/>156.75MHz
+				</br>
+				<input type="checkbox"/>通道使能
+				<input type="checkbox"/>调制使能	
+			</form>
+			
+			<form >
+				<label class="oo">信号参数</br>
+				&nbsp;&nbsp;初始发射时延&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input />   ms  </br>
+				&nbsp;&nbsp;多普勒频偏&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input/>  kHz </br>
+				&nbsp;&nbsp;多普勒1阶变化率 <input/>  Hz/s </br>
+				&nbsp;&nbsp;多普勒2阶变化率 <input/>  Hz/s^2 </br>
+				&nbsp;&nbsp;发送间隔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input/> 时隙 </br>
+			</form>
+			<br />
+				主用通道信号强度<input	class="in"	/><br />
+	</div>
+	
+	<div id=B>
+		<label>主要信号通道频点2设置</label>
+			<form>
+				<label>数据来源</br>
+				<input type="radio"/>固定帧
+				<input type="radio"/>累加帧
+				<input type="radio"/>AIS协议帧
+			</form>
+			<form >
+				<label>输出控制</br>
+				<input type="checkbox"/>161.975MHz
+				<input type="checkbox"/>156.75MHz
+				</br>
+				<input type="checkbox"/>通道使能
+				<input type="checkbox"/>调制使能	
+			</form>
+			
+			<form >
+				<label class="oo">信号参数</br>
+				&nbsp;&nbsp;初始发射时延&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input />   ms  </br>
+				&nbsp;&nbsp;多普勒频偏&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input/>  kHz </br>
+				&nbsp;&nbsp;多普勒1阶变化率 <input/>  Hz/s </br>
+				&nbsp;&nbsp;多普勒2阶变化率 <input/>  Hz/s^2 </br>
+				&nbsp;&nbsp;发送间隔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input/> 时隙 </br>
+			</form>
+	</div>
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
